@@ -1,0 +1,21 @@
+{
+  "name": "lerna-test-bs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "lerna": "^3.22.1"
+  },
+  "author": "gun",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "release": "lerna publish --exact --force-publish --no-push"
+  }
+}

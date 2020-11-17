@@ -1,0 +1,23 @@
+{
+  "name": "test-bs-editor",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "renyong <renyong4011@dhcc.com.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/editor.module.js",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx babel src --out-dir dist --source-maps --verbose --config-file ../../babel.config.js"
+  },
+  "dependencies": {
+    "@test-bs/core": "^0.0.0"
+  }
+}

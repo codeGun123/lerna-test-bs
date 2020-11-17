@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["editor","console","log"],"mappings":";;;;;;;AAAA;;;;AAEe,SAASA,MAAT,GAAkB;AAC/B;AACAC,EAAAA,OAAO,CAACC,GAAR,CAAY,WAAZ;AACD","sourcesContent":["import Test from 'test-bs-editor';\n\nexport default function editor() {\n  Test();\n  console.log('editor。。。');\n}\n"],"file":"index.js"}

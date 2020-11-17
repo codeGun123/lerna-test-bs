@@ -1,6 +1,6 @@
 {
   "name": "@test-bs-editor/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "renyong <renyong4011@dhcc.com.cn>",
   "homepage": "https://github.com/codeGun123/lerna-test-bs#readme",
@@ -29,6 +29,6 @@
     "url": "https://github.com/codeGun123/lerna-test-bs/issues"
   },
   "dependencies": {
-    "test-bs-editor": "^0.0.3"
+    "test-bs-editor": "0.0.4"
   }
 }

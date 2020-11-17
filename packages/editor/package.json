@@ -23,10 +23,8 @@
     "directory": "packages/editor"
   },
   "scripts": {
-    "build": "npx babel src --out-dir dist --source-maps --verbose --config-file ../../babel.config.js"
+    "build": "rm -rf dist & npx babel src --out-dir dist --source-maps --verbose --config-file ../../babel.config.js"
   },
-  "dependencies": {
-    "@test-bs/core": "0.0.3"
-  },
-  "gitHead": "e6db2a5e8869de569b07f6c3cef159f259c64566"
+  "dependencies": {},
+  "gitHead": "ce66cde655b3459230702fb25cdfba4744fe14fd"
 }

@@ -15,7 +15,8 @@
   "author": "gun",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "build": "lerna run build --parallel",
+    "clean": "lerna clean",
     "release": "lerna publish --exact --force-publish --no-push"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "test-bs-editor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "renyong <renyong4011@dhcc.com.cn>",
   "homepage": "",
@@ -18,6 +18,6 @@
     "build": "npx babel src --out-dir dist --source-maps --verbose --config-file ../../babel.config.js"
   },
   "dependencies": {
-    "@test-bs/core": "^0.0.0"
+    "@test-bs/core": "0.0.1"
   }
 }

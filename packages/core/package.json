@@ -1,6 +1,6 @@
 {
   "name": "@test-bs/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "renyong <renyong4011@dhcc.com.cn>",
   "homepage": "",
@@ -14,7 +14,16 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeGun123/lerna-test-bs.git",
+    "directory": "packages/core"
+  },
   "scripts": {
     "build": "npx babel src --out-dir dist --source-maps --verbose --config-file ../../babel.config.js"
-  }
+  },
+  "gitHead": "358547b3159b9fd88704c898d58d31d1425c9572"
 }
